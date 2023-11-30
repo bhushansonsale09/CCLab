@@ -1,0 +1,13 @@
+1. put id password : vagrant all small
+2. vm1 : open
+ls : file check
+touch filename.txt - creates new file
+nano filename.txt - put info in file
+ctrl x -> y -> enter
+ls - file check
+ping vm2ip
+Ctrl c
+vm2 : ifconfig
+ls check
+vm1 : scp filename.txt vagrant@vm2ip:/home/vagrant
+vm2 check ls 
